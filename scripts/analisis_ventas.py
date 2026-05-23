@@ -1,5 +1,6 @@
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #Lee dataset
 df = pd.read_csv("datos/dataset.csv")

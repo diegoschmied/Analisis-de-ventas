@@ -22,3 +22,17 @@ print("Venta mínima:", venta_minima)
 
 #Convierte las fechas
 df["sales_date"] = pd.to_datetime(df["sales_date"])
+
+#Crea el gráfico
+plt.figure(figsize=(10,5))
+plt.plot(df["sales_date"], df["sales_amount"])
+
+#Agrega los títulos
+plt.title("Evolución de ventas")
+plt.xlabel("Fecha")
+plt.ylabel("Monto")
+
+#Guarda el gráfico
+plt.savefig("resultados/grafico_ventas.png")
+
+print("Gráfico generado correctamente.")

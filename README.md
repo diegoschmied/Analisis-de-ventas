@@ -35,6 +35,7 @@ Este archivo CSV cuenta con 3 tipos de datos:
 ```python
 from IPython.display import Image
 Image("resultados/grafico_ventas.png")
+```
 
 ## Objetivo del proyecto
 Analizar información de ventas para generar indicadores básicos que permitan interpretar el desempeño de la empresa.

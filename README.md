@@ -24,9 +24,17 @@ Este archivo CSV cuenta con 3 tipos de datos:
 - Google Colab
 
 ## Cómo ejecutar
-1. Abrir Colab
-2. Ejecutar script
-3. Ver resultados
+
+- Clonar el repositorio desde GitHub.
+- Abrir el proyecto en Google Colab.
+- Verificar que el dataset se encuentre en la carpeta `/datos`.
+- Ejecutar el script ubicado en `/scripts/analisis_ventas.py`.
+- Los resultados y gráficos generados se almacenarán automáticamente en la carpeta `/resultados`.
+- Para visualizar el gráfico generado, ejecutar:
+
+```python
+from IPython.display import Image
+Image("resultados/grafico_ventas.png")
 
 ## Objetivo del proyecto
 Analizar información de ventas para generar indicadores básicos que permitan interpretar el desempeño de la empresa.

@@ -29,6 +29,12 @@ Este archivo CSV cuenta con 3 tipos de datos:
 - Abrir el proyecto en Google Colab.
 - Verificar que el dataset se encuentre en la carpeta `/datos`.
 - Ejecutar el script ubicado en `/scripts/analisis_ventas.py`.
+  
+```python
+%cd /content/Analisis-de-ventas
+!python scripts/analisis_ventas.py
+```
+
 - Los resultados y gráficos generados se almacenarán automáticamente en la carpeta `/resultados`.
 - Para visualizar el gráfico generado, ejecutar:
 
@@ -38,7 +44,7 @@ Image("resultados/grafico_ventas.png")
 ```
 
 ## Objetivo del proyecto
-Analizar información de ventas para generar indicadores básicos que permitan interpretar el desempeño de la empresa.
+Analizar información de ventas mediante técnicas básicas de procesamiento de datos, con el objetivo de generar indicadores y visualizaciones que permitan interpretar el desempeño comercial de la empresa y facilitar la toma de decisiones.
 
 ## Funciones del proyecto
 - Importación de datos desde un archivo CSV

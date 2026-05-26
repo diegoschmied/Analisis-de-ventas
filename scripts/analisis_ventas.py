@@ -32,7 +32,7 @@ venta_maxima = df["sales_amount"].max()
 venta_minima = df["sales_amount"].min()
 
 print("Ventas totales:", ventas_totales)
-print("Promedio:", promedio_ventas)
+print(f"Promedio: {promedio_ventas:.2f}")
 print("Venta máxima:", venta_maxima)
 print("Venta mínima:", venta_minima)
 
